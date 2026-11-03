@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# Local environment files
+.env
+.env.*
+!.env.example
